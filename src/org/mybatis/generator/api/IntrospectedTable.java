@@ -818,7 +818,7 @@ public abstract class IntrospectedTable {
         sb.append('.');
         sb.append(fullyQualifiedTable.getDomainObjectName());
 //        sb.append("Mapper"); //$NON-NLS-1$
-        sb.append("DAO");
+        sb.append("Dao");
         setMyBatis3JavaMapperType(sb.toString());
 
         sb.setLength(0);
@@ -854,7 +854,7 @@ public abstract class IntrospectedTable {
         sb.append(pakkage);
         sb.append('.');
         sb.append(fullyQualifiedTable.getDomainObjectName());
-        sb.append("Entity"); //kaiyun add
+//        sb.append("Entity"); //kaiyun add
         setBaseRecordType(sb.toString());
 
         sb.setLength(0);

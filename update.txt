@@ -14,7 +14,7 @@ mybatis-generator 里面我觉得首先最应该改的就是 OutputUtilities 这
 org.mybatis.generator.api.IntrospectedTable
 
 calculateJavaClientAttributes方法(大概820行)
-	sb.append("Mapper");注释掉改成 sb.append("DAO");
+	sb.append("Mapper");注释掉改成 sb.append("Dao");
 
 
 ==========修改Mybatis的Model生成，在Model后面添加后缀Entity
